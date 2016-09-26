@@ -62,3 +62,9 @@ git checkout <RELEASE_NAME>
 ```
 
 Or else `./install.sh` will not work
+------------------------------------------------
+cswords's note:
+we are using ppc64 server supplied by IBM SuperVessel Cloud located in New York.
+if u a re gonna using a server in Beijing, u can choose pre-built image without this pain. 
+it is not necessary to checkout a release. do not know why.
+install.sh may not be able to last to the last step. but we can do update.sh again and again to achieve it.
