@@ -85,3 +85,6 @@
 [submodule "extra/lua-cjson"]
 	path = extra/lua-cjson
 	url = https://github.com/mpx/lua-cjson
+[submodule "extra/cutorch-rtc"]
+	path = extra/cutorch-rtc
+	url = git://github.com/szagoruyko/cutorch-rtc.git
