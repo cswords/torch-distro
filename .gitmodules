@@ -88,3 +88,6 @@
 [submodule "extra/cutorch-rtc"]
 	path = extra/cutorch-rtc
 	url = git://github.com/szagoruyko/cutorch-rtc.git
+[submodule "extra/nvrtc"]
+	path = extra/nvrtc
+	url = git://github.com/szagoruyko/nvrtc.torch.git

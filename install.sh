@@ -132,7 +132,9 @@ cd ${THIS_DIR}/extra/argcheck       && $PREFIX/bin/luarocks make rocks/argcheck-
 if [ -x "$path_to_nvcc" ]
 then
     echo "Found CUDA on your machine. Installing optional CUDA packages"
-    cd ${THIS_DIR}/extra/cudnn   && $PREFIX/bin/luarocks make cudnn-scm-1.rockspec
+    cd ${THIS_DIR}/extra/cudnn         && $PREFIX/bin/luarocks make cudnn-scm-1.rockspec
+    cd ${THIS_DIR}/extra/nvrtc         && $PREFIX/bin/luarocks make
+    cd ${THIS_DIR}/extra/cutorch-rtc   && $PREFIX/bin/luarocks make
 fi
 
 export PATH=$OLDPATH # Restore anaconda distribution if we took it out.
